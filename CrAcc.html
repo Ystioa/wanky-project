@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+ <h1>Account creation</h1> <br>
+ <h3>Please enter your information.</h3>
+ <hr>
+    </head>
+    <main>
+ <form>
+
+        <!-- I didn't put "required" attributes but yeah it's fine-->
+            <label for="username"></label>
+            <input type="text" id="username" name="username">
+            <br>
+
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password">
+            <br>
+
+
+            <label for="email">Enter your E-mail address</label>
+            <input type="email" id="email" name="email">
+            <br>
+
+
+            <label for="bdate">Enter your birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+            <br>
+
+
+            <label for="chender">Enter your chender</label>
+            <select name="chender" id="">
+                <option value="" disabled>Chender options</option>
+                <option value="chender">Cheddar</option>
+                <option value="chender">Gouda</option>
+                <option value="chender">Emmental</option>
+                <option value="chender">Gorgonzola</option>
+            </select>
+
+            <br>
+               
+            <label for="fc">How many friends do you have?</label>
+            <input type="number" min="-256" max="256">
+            
+            <label for="ut">What type of cheese are you?</label>
+            <input type="radio" id="ut" name="">
+            <label for=""></label>
+
+
+            </form>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
