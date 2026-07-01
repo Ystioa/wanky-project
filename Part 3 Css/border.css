@@ -1,6 +1,35 @@
-h1  {
+header {
+    border: 20px outset blue;
+    border-radius: 16px;
+    background-color: rgb(36, 124, 255);
+}
+h1 {
 
-    border-style: inset;
-    border-color: aquamarine;
-    border-radius: 15px;
+    border: 16px inset red; 
+    background-color: rgb(133, 36, 36);
+    border-radius: 68px;
+    border-bottom: dashed 10px red;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+} pre {
+
+    border: 16px inset red; 
+    background-color: rgb(133, 36, 36);
+    border-radius: 68px;
+    border-bottom: dashed 10px red;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#tuff {
+    color: red;
+    text-shadow: 5px 27px 9px blue, 7px -30px 9px peru;
+}
+
+#bboxx {
+    height: 100px;
+    width: 80px;
+    background-color: aquamarine;
+    box-shadow: 8px 8px 9px black;
+    
 }

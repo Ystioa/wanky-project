@@ -1,0 +1,25 @@
+#coupa {
+    display: flow-root;
+    
+}
+
+#boxa {
+    width: 100px;
+    height: 100px;
+    background-color:red ;
+    margin-top: 80px;
+   
+} 
+
+#boxb {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 1px;
+   
+} #outa {
+    float: left;
+} #bouba {
+    float: right;
+
+} 
